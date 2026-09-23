@@ -1,3 +1,6 @@
+# Jupyter
+.ipynb_checkpoints/
+
 # Python
 __pycache__/
 *.py[cod]
@@ -12,19 +15,13 @@ env/
 .env
 .env.*
 
-# Jupyter
-.ipynb_checkpoints/
-
 # OS files
 .DS_Store
 Thumbs.db
-
-# VS Code
-.vscode/
 
 # Temporary files
 *.tmp
 *.log
 
-# Raw/local datasets
-data/*
+# Local development
+.vscode/
