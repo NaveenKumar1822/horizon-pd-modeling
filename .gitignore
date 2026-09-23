@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Raw/local datasets
+data/raw/*
+data/processed/*
+
+# Generated model artifacts
+outputs/models/*
+outputs/reports/*.csv
+
+# Keep the project structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep

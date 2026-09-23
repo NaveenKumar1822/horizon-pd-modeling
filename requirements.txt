@@ -1,0 +1,16 @@
+---
+
+### 2. `requirements.txt`
+Streamlit Cloud reads this file automatically to build the environment and install required packages when you deploy[cite: 1].
+
+**Create a new file named `requirements.txt` in the root folder and paste:**
+
+```text
+streamlit>=1.25.0
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.2.0
+xgboost>=1.7.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
