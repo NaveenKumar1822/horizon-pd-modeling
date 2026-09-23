@@ -6,7 +6,7 @@ An end-to-end, Basel-aligned Probability of Default (PD) credit risk modeling pi
 
 ## 📌 Executive Summary
 
-Horizon Consumer Finance required an auditable, data-driven credit risk engine to replace legacy heuristic underwriting rules. This repository delivers a production-grade PD model compliant with Fair Lending (ECOA/FCRA) and Basel capital adequacy guidelines.
+Horizon Consumer Finance required an auditable, data-driven credit risk engine to replace legacy heuristic underwriting rules. This repository delivers a production-grade PD model compliant with Fagir Lending (ECOA/FCRA) and Basel capital adequacy guidelines.
 
 * **Primary Model Architecture:** Logistic Regression fit on monotonic Weight of Evidence (WoE) features.
 * **Predictive Power:** **ROC-AUC of 0.7415** (Gini: **0.4831**) and a **KS Statistic of 0.3778**, outperforming a tuned monotonic XGBoost benchmark.

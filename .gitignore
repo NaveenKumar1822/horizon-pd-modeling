@@ -15,21 +15,16 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 
-# OS
+# OS files
 .DS_Store
 Thumbs.db
 
 # VS Code
 .vscode/
 
+# Temporary files
+*.tmp
+*.log
+
 # Raw/local datasets
-data/raw/*
-data/processed/*
-
-# Generated model artifacts
-outputs/models/*
-outputs/reports/*.csv
-
-# Keep the project structure
-!data/raw/.gitkeep
-!data/processed/.gitkeep
+data/*
