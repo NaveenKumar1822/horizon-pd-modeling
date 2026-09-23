@@ -1,27 +1,25 @@
-# Jupyter
-.ipynb_checkpoints/
-
-# Python
+# Python / Jupyter Cache & Artifacts
 __pycache__/
 *.py[cod]
-*.pyo
+*$py.class
+.ipynb_checkpoints/
+*.ipynb_checkpoints
 
-# Virtual environments
-.venv/
+# Virtual Environments
 venv/
+.venv/
 env/
+ENV/
 
-# Environment / secrets
-.env
-.env.*
-
-# OS files
+# OS-Specific Files
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Temporary files
-*.tmp
-*.log
+# Large Raw Data / Datasets (Uncomment if your raw CSVs exceed 100MB)
+# data/raw/*.csv
 
-# Local development
+# Local IDE & Editor Settings
 .vscode/
+.idea/
+*.swp
