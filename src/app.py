@@ -9,8 +9,8 @@ st.title("Horizon Consumer Finance — Credit Decisioning System")
 st.markdown("### Point-of-Origination Probability of Default (PD) Engine")
 
 # Attempt to load trained models
-MODEL_PATH = '../outputs/models/logistic_woe_pd_model.pkl'
-ENCODER_PATH = '../outputs/models/woe_binning_transformer.pkl'
+MODEL_PATH = 'outputs/models/logistic_woe_pd_model.pkl'
+ENCODER_PATH = 'outputs/models/woe_binning_transformer.pkl'
 
 try:
     with open(MODEL_PATH, 'rb') as f:
